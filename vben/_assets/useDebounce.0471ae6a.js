@@ -1,1 +1,0 @@
-import{b7 as e}from"./index.5b8fca6f.js";function n(n,o,r={}){return e(n,o,Object.assign(r,{debounce:!0}))}export{n as u};

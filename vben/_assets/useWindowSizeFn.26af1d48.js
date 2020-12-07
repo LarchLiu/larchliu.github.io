@@ -1,1 +1,0 @@
-import{cR as e,bE as n}from"./index.5b8fca6f.js";import{u as s}from"./useDebounce.0471ae6a.js";function t(t,i=150,o){let r=()=>{t()};const[a,m]=s(r,i,o);r=a;const c=()=>{o&&o.immediate&&r(),window.addEventListener("resize",r)},d=()=>{window.removeEventListener("resize",r),m()};return e((()=>{c()})),n((()=>{d()})),[c,d]}export{t as u};
